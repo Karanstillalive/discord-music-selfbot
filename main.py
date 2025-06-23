@@ -1,6 +1,6 @@
+import os 
 import discord
 from discord.ext import commands
-import os
 import colorama
 from colorama import Fore
 import wavelink
@@ -293,4 +293,4 @@ async def shell_command_loop():
          else:
               print("Unknown command")
 
-client.run("token daal", bot=False)
+client.run("Token_here", bot=False)
